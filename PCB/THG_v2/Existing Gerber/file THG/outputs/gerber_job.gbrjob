@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.7.1*%
+%TF.CreationDate,2021-04-30T08:45:36Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Teuku Ridha <ridha.teuku@yahoo.com>*%
+%TJ.B_ID,THG2LCDsocketall*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,46.660000*%
+%TJ.B_Size_Y,69.205000*%
+M02*

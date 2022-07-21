@@ -1,0 +1,43 @@
+Date:,7/15/2022 14:19,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Component Count:,116,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,AVAILABILITY,DESCRIPTION,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PACKAGE,PARTREV,PRICE,STANDARD,Supplier
+1,1,AE1,Antenna,Device:Antenna,Fuse:Fuse_Bourns_MF-RG300,~,,,,,,,,,,,~
+2,1,BZ1,Buzzer,Device:Buzzer,Buzzer_Beeper:Buzzer_12x9.5RM7.6,~,,,,,,,,,,,PCM
+3,4,"C1, C2, C3, C4",100pF,Device:C_Small,,~,,,,,,,,,,,PCM
+4,12,"C5, C6, C7, C8, C13, C14, C15, C16, C21, C22, C23, C24",2.2uF,Device:C_Polarized_Small,,~,,,,,,,,,,,PCM
+5,12,"C9, C10, C11, C12, C17, C18, C19, C20, C25, C26, C27, C28",100nF,Device:C_Small,,~,,,,,,,,,,,PCM
+6,4,"H1, H2, H3, H4",MountingHole_Pad,Mechanical:MountingHole_Pad,MountingHole:MountingHole_3.5mm_Pad_Via,~,,,,,,,,,,,
+7,1,J1,Asus_Tinkerboard_sR2.0,Connector_Generic:Conn_02x20_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,~,,,,,,,,,,,
+8,1,J2,CONMHF4-SMD-G-T,CONMHF4-SMD-G-T:CONMHF4-SMD-G-T,Lib_Kicad:LINX_CONMHF4-SMD-G-T,,,,Linx,0.6 mm,,,,A,,Manufacturer Recommendations,
+9,4,"J3, J4, J5, J6",Sensor 1,Connector:Conn_01x03_Female,,~,,,,,,,,,,,CNC STORE ID
+10,1,J7,Power In 24v,Connector:Screw_Terminal_01x02,,~,,,,,,,,,,,
+11,1,J8,Indicator,Connector:Conn_01x04_Female,,~,,,,,,,,,,,CNC STORE ID
+12,12,"JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8, JP9, JP10, JP11, JP12",Jumper_2_Open,Jumper:Jumper_2_Open,,~,,,,,,,,,,,CNC STORE ID
+13,4,"PS1, PS2, PS3, PS4",B0505S,Converter_DCDC:MEE1S0505SC,Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT,https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf,,,,,,,,,,,alandcomp
+14,4,"PS5, PS6, PS7, PS8",B1212S,Converter_DCDC:MEE1S1212SC,Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT,https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf,,,,,,,,,,,alandcomp
+15,4,"PS9, PS10, PS11, PS12",B2424S,Converter_DCDC:IH2424SH,Converter_DCDC:Converter_DCDC_XP_POWER-IHxxxxSH_THT,https://www.xppower.com/pdfs/SF_IH.pdf,,,,,,,,,,,
+16,4,"Q1, Q2, Q3, Q4",2N3904,Transistor_BJT:2N3904,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,,,,,,,,,,,CNC STORE ID
+17,2,"Q5, Q6",BC548,Transistor_BJT:BC548,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/BC550-D.pdf,,,,,,,,,,,
+18,8,"R1, R2, R3, R4, R13, R14, R15, R16",80K,Device:R_Small,,~,,,,,,,,,,,Jaya Plaza
+19,4,"R5, R6, R7, R8",150K,Device:R_Small,,~,,,,,,,,,,,Jaya Plaza
+20,4,"R9, R10, R11, R12",1K,Device:R_Small,,~,,,,,,,,,,,PCM
+21,1,R29,1k,Device:R_Small,,~,,,,,,,,,,,PCM
+22,1,R30,220,Device:R_Small,,~,,,,,,,,,,,PCM
+23,3,"R31, R32, R33",10K,Device:R_Small,,~,,,,,,,,,,,PCM
+24,2,"R34, R35",10K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,,,,,,,,,,,PCM
+25,1,R36,2K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,,,,,,,,,,,
+26,2,"SW1, SW2",Button,Switch:SW_Push_Dual,Button_Switch_THT:SW_PUSH_6mm_H5mm,~,,,,,,,,,,,
+27,8,"U1, U2, U3, U4, U9, U10, U11, U12",LM358,Amplifier_Operational:LM358,,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf,,,,,,,,,,,Jaya plaza
+28,4,"U5, U6, U7, U8",HCNR200,HCNR20:HCNR20,SOP254P1230X400-8_R229_130_898N,,,,,,,,,,,,IWANT
+29,1,U13,ADS1115,ZC261500:ZC261500,MODULE_ZC261500,,,,YKS,NA,,,,NA,,Manufacturer Recommendations,Avarelectric
+30,1,U14,RFM95W-915S2,RFM95W-915S2:RFM95W-915S2,Lib_Kicad:XCVR_RFM95W-915S2,,Unavailable,RFM95W LoRA Transceiver Module 915MHz,,,RF Solutions,RFM95W-915S2,SMD-16 RF Solutions,,None,Manufacturer recommendations,
+31,1,U15,S102S01,Relay_SolidState:S102S01,Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight,http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf,,,,,,,,,,,toko puwei
+32,,"U16, U17, U18",MP1584 Module,,,,,,,,,,,,,,CNC Bandung
+,,,Jack Power,,,,,,,,,,,,,,toko puwei
+,,,Kipas,,,,,,,,,,,,,,CNC STORE ID
+,,,Konektor sensor 3P,,,,,,,,,,,,,,PCM
+,,,jst Kipas,,,,,,,,,,,,,,CNC STORE ID
